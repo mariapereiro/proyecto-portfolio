@@ -17,7 +17,7 @@ const miporfolio = require("./routes/miporfolio");
 app.use("/", miporfolio);
 
 
-
+//Ejemplo
 app.use(express.static("public"))
 
 app.listen(3000)
