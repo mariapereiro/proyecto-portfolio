@@ -11,7 +11,7 @@ app.get("/", (req,res)=>{
     res.render("home")
 })
 
-app.get("/marta", (req,res)=>{
+/*app.get("/marta", (req,res)=>{
     res.render("marta")
 })
 
@@ -21,10 +21,10 @@ app.get("/myriam", (req,res)=>{
 
 app.get("/maria", (req,res)=>{
     res.render("maria")
-})
+})*/
 
-const myporfolio=require("./routes/miporfolio")
-app.use("/miporfolio",myporfolio)
+const marta=require("./routes/miporfolio")
+app.use("/miporfolio",marta)
 
 app.use(express.static("public"))
 
