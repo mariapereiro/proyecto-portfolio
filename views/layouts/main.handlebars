@@ -1,32 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+
         }
-        header{
+
+        header {
             background-color: black;
             width: 100%;
-            color:white;
+            color: white;
+            padding: 70px;
         }
-        body{
+
+        body {
             background-color: rgb(157, 11, 62);
         }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .titulo {
+            margin-top: 25px;
+            text-decoration: underline;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #descripcion {
+            text-align: justify;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 40px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .contenedorTarjetas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .tarjetas {
+            min-height: 400px;
+            width: 300px;
+            background-color: white;
+            border: 4px solid black;
+            border-radius: 1em;
+        }
+
+        a {
+            color: black;
+            font-size: 1.3rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+            text-decoration: none;
+        }
+
+        .foto{
+            width: 140px;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 16px;
+         }
     </style>
 </head>
+
 <body>
     <header>
-    <img src="" alt="logo">
-    <h1>Triple M Studio</h1>
-    <a href="/">home</a>
+        <img src="" alt="logo">
+        <h1>Triple M Studio</h1>
     </header>
 
     {{{body}}}
 </body>
+
 </html>
